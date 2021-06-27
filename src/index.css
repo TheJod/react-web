@@ -47,6 +47,10 @@ body {
 /*
  * Header
  */
+ .header {
+   padding-top: 5px;
+ }
+
 .masthead {
   background-color: #202020;
   border-radius: 15px;
@@ -55,14 +59,12 @@ body {
 }
 
 .masthead-brand {
-  float: left;
   font-family: PoiretOne;
-  margin-left: 2%;
+  margin: auto;
 }
 
 .masthead-nav {
-  float: right;
-  margin-right: 2%
+  margin: auto;
 }
 
 .masthead-nav > li {
@@ -78,25 +80,25 @@ body {
 .mastbody {
   background-color: #6b6b6b;
   border-radius: 15px;
-  height: 200px;
+  height: 150px;
 }
 
 /*
- * Different Screen Sizes
+ * Handling Different Screen Sizes
  */
  @media (min-width: 768px) {
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
+  .header{
+    padding-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
   }
-  /* Handle the widths */
-  .container {
-    width: 90%; /* Must be percentage or pixels for horizontal alignment */
+  .masthead-brand {
+    float: left;
   }
-}
-
-@media (min-width: 992px) {
+  .masthead-nav {
+    padding-top: 25px;
+    float: right;
+  }
   .container {
     width: 90%;
   }
