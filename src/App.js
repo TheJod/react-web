@@ -13,26 +13,26 @@ class App extends Component {
 
         return (
             <div className="site-wrapper">
-                <div className="site-wrapper-inner">
-
-                    <div className="cover-container">
-
-                        <div className="masthead">
-                            <div className="inner">
-                                <h1 className='masthead-brand'>LATTEnomic</h1>
-                                <nav>
-                                    <ul className="masthead-nav">
-                                        <li className="active"><a href="#">About</a></li>
-                                        <li><a href="#">Roadmap</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                                                
+                <div className="container head-container">
+                    <div className="masthead">
+                            <h1 className='masthead-brand'>LATTEnomic</h1>
+                            <nav>
+                                <ul className="masthead-nav">
+                                    <li className="active"><a href="#">About</a></li>
+                                    <li><a href="#">Roadmap</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </nav>
                     </div>
-
-
+                </div>
+             
+                <div className="container content-container">
+                    <div className="mastbody">
+                        <h1>test 1</h1>
+                    </div>
+                    <div className="mastbody">
+                        <h1>test 2</h1>
+                    </div>
                 </div>
             </div>
         )
