@@ -16,7 +16,7 @@ class SocialProfile extends Component {
 class SocialProfiles extends Component {
     render() {
         return (
-            <div>
+            <div className="body">
                 <h2>Contact Us</h2>
                 <div>
                     {

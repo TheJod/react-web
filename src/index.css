@@ -12,8 +12,8 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /*
@@ -22,55 +22,55 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
 }
 
 /* Overall Page Container */
 .container {
-  margin: auto;
-  padding: 30px;    
+    margin: auto;
+    padding: 30px;
 }
 
 
 /*
  * Header
  */
- .header {
-   padding-top: 5px;
- }
+.header {
+    padding-top: 5px;
+}
 
 .masthead {
-  background-color: #202020;
-  border-radius: 15px;
-  height: 80px;
-  margin: auto;
+    background-color: #202020;
+    border-radius: 15px;
+    height: 80px;
+    margin: auto;
 }
 
 .masthead-brand {
-  font-family: PoiretOne;
-  margin: auto;
+    font-family: 'PoiretOne', serif;
+    margin: auto;
 }
 
 .masthead-nav {
-  margin: auto;
+    margin: auto;
 }
 
 .masthead-nav > li {
-  display: inline-block;
-  font-family: 'QuickSand';
-  margin-left: 20px;
+    display: inline-block;
+    font-family: 'QuickSand', serif;
+    margin-left: 20px;
 }
 
 
@@ -78,28 +78,36 @@ body {
  * Body
  */
 .mastbody {
-  background-color: #6b6b6b;
-  border-radius: 15px;
-  height: 150px;
+    font-family: 'QuickSand', serif;
+    background-color: #464646;
+    border-radius: 15px;
+    height: 150px;
+    margin-top: 20px;
+}
+.body {
+    padding: 2px;
 }
 
 /*
  * Handling Different Screen Sizes
  */
- @media (min-width: 768px) {
-  .header{
-    padding-top: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    padding-top: 25px;
-    float: right;
-  }
-  .container {
-    width: 70%;
-  }
+@media (min-width: 768px) {
+    .header {
+        padding-top: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .masthead-brand {
+        float: left;
+    }
+
+    .masthead-nav {
+        padding-top: 25px;
+        float: right;
+    }
+
+    .container {
+        width: 70%;
+    }
 }

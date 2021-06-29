@@ -28,12 +28,13 @@ class App extends Component {
              
                 <div className="container content-container">
                     <div className="mastbody">
-                        <h2>About</h2>
-                        <p>{LOREM_IPSUM}</p>
+                        <div className="body">
+                            <h2>About</h2>
+                            <p>{LOREM_IPSUM}</p>
+                        </div>
                     </div>
                     <div className="mastbody">
-                        <h2>Contact Us!</h2>
-                        <p>Body 2</p>
+                        <SocialProfiles />
                     </div>
                 </div>
             </div>
