@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import About from './About';
+import LOREM_IPSUM from './data/loremIpsum';
 import SocialProfiles from './SocialProfiles';
 
 class App extends Component {
@@ -28,9 +28,11 @@ class App extends Component {
              
                 <div className="container content-container">
                     <div className="mastbody">
-                        <p>Body 1</p>
+                        <h2>About</h2>
+                        <p>{LOREM_IPSUM}</p>
                     </div>
                     <div className="mastbody">
+                        <h2>Contact Us!</h2>
                         <p>Body 2</p>
                     </div>
                 </div>
