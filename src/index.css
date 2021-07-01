@@ -73,6 +73,10 @@ body {
     margin-left: 20px;
 }
 
+.masthead-nav > li > link:hover {
+    cursor: pointer;
+}
+
 
 /* 
  * Body

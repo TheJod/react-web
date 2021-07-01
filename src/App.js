@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import LOREM_IPSUM from './data/loremIpsum';
 import SocialProfiles from './SocialProfiles';
 import About from './About';
+import AboutNavButton from './AboutNavButton';
 
 class App extends Component {
     state = {displayBio: false};
@@ -19,7 +19,7 @@ class App extends Component {
                             <h1 className='header masthead-brand'>LATTEnomic</h1>
                             <nav>
                                 <ul className="header masthead-nav">
-                                    <li className="active"><a href="#">About</a></li>
+                                    <AboutNavButton />
                                     <li><a href="#">Roadmap</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
