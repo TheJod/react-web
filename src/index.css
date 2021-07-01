@@ -78,10 +78,11 @@ body {
  * Body
  */
 .mastbody {
+    display: flex;
     font-family: 'QuickSand', serif;
     background-color: #464646;
     border-radius: 15px;
-    height: 150px;
+    min-height: 150px;
     margin-top: 20px;
 }
 .body {
