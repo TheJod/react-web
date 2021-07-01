@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import LOREM_IPSUM from './data/loremIpsum';
 import SocialProfiles from './SocialProfiles';
+import About from './About';
 
 class App extends Component {
     state = {displayBio: false};
@@ -28,10 +29,7 @@ class App extends Component {
              
                 <div className="container content-container">
                     <div className="mastbody">
-                        <div className="body">
-                            <h2>About</h2>
-                            <p>{LOREM_IPSUM}</p>
-                        </div>
+                        <About />
                     </div>
                     <div className="mastbody">
                         <SocialProfiles />
