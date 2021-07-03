@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 import ILLUSTRATIONS from "./data/illustrations";
+import CONTENT_ELEMENTS from "./data/contentElements";
 
 class RoadMap extends Component {
 
     render() {
-        let illusName = 'roadmap-illustration';
         return (
-            <div className="body" id="roadmap-content">
+            <div className="body" id={CONTENT_ELEMENTS.ROADMAP}>
                 <h2>RoadMap</h2>
                 <span>
                     <img
-                        alt={illusName}
-                        style={{ width: 1200, /*height: 35,*/ margin: 10 }}
-                        src={ILLUSTRATIONS.find(elem => elem.name === illusName).image}/>
+                        alt='roadmap-illustration'
+                        style={{ width: 1200, margin: 10 }}
+                        src={ILLUSTRATIONS.find(elem => elem.name === 'roadmap').image}/>
                 </span>
             </div>
         )
