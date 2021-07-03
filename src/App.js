@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import SocialProfiles from './SocialProfiles';
 import About from './About';
-import AboutNavButton from './AboutNavButton';
+import HeadNavButtons from './HeadNavButtons';
 import RoadMap from "./RoadMap";
 
 class App extends Component {
@@ -18,13 +18,7 @@ class App extends Component {
                 <div className="container head-container">
                     <div className="masthead">
                             <h1 className='header masthead-brand'>LATTEnomic</h1>
-                            <nav>
-                                <ul className="header masthead-nav">
-                                    <AboutNavButton />
-                                    <li><a href="#">Roadmap</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </nav>
+                            <HeadNavButtons />
                     </div>
                 </div>
              
