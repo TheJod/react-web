@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import SocialProfiles from './SocialProfiles';
 import About from './About';
 import AboutNavButton from './AboutNavButton';
+import RoadMap from "./RoadMap";
 
 class App extends Component {
     state = {displayBio: false};
@@ -28,12 +29,19 @@ class App extends Component {
                 </div>
              
                 <div className="container content-container">
+
                     <div className="mastbody">
                         <About />
                     </div>
+
+                    <div className="mastbody">
+                        <RoadMap />
+                    </div>
+
                     <div className="mastbody">
                         <SocialProfiles />
                     </div>
+
                 </div>
             </div>
         )
