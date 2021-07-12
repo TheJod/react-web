@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-scroll';
-import CONTENT_ELEMENTS from "./data/contentElements";
+import CONTENT_ELEMENTS from "./data/contents";
 
 class HeadNavButtons extends Component {
     scrollToContent(elemId) {
@@ -14,17 +14,17 @@ class HeadNavButtons extends Component {
                 <ul className="header masthead-nav">
                     <li className="active" onClick={this.scrollToContent(CONTENT_ELEMENTS.ABOUT)}>
                         <Link to={CONTENT_ELEMENTS.ABOUT} spy={true} smooth={true}>
-                            <a href="">About</a>
+                            <a href="#">About</a>
                         </Link>
                     </li>
                     <li className="active" onClick={this.scrollToContent(CONTENT_ELEMENTS.ROADMAP)}>
                         <Link to={CONTENT_ELEMENTS.ROADMAP} spy={true} smooth={true}>
-                            <a href="">Roadmap</a>
+                            <a href="#">Roadmap</a>
                         </Link>
                     </li>
                     <li className="active" onClick={this.scrollToContent(CONTENT_ELEMENTS.SOCIAL_PROFILES)}>
                         <Link to={CONTENT_ELEMENTS.SOCIAL_PROFILES} spy={true} smooth={true}>
-                            <a href="">Contact Us</a>
+                            <a href="#">Contact Us</a>
                         </Link>
                     </li>
                 </ul>

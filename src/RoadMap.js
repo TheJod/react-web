@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ILLUSTRATIONS from "./data/illustrations";
-import CONTENT_ELEMENTS from "./data/contentElements";
+import CONTENT_ELEMENTS from "./data/contents";
 
 class RoadMap extends Component {
 
