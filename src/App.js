@@ -36,6 +36,10 @@ class App extends Component {
                         <SocialProfiles />
                     </div>
 
+                    <div className="mastfoot">
+                        <p>Copyright © 2021 GuyBiz & Co.</p>
+                    </div>
+
                 </div>
             </div>
         )
