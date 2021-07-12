@@ -9,9 +9,8 @@ class RoadMap extends Component {
             <div className="body" id={CONTENT_ELEMENTS.ROADMAP}>
                 <h2>RoadMap</h2>
                 <span>
-                    <img
+                    <img className='image-illus'
                         alt='roadmap-illustration'
-                        style={{ width: 1200, margin: 10 }}
                         src={ILLUSTRATIONS.find(elem => elem.name === 'roadmap').image}/>
                 </span>
             </div>
