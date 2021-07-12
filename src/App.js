@@ -3,6 +3,7 @@ import SocialProfiles from './SocialProfiles';
 import About from './About';
 import HeadNavButtons from './HeadNavButtons';
 import RoadMap from "./RoadMap";
+import BrandName from "./BrandName";
 
 class App extends Component {
     state = {displayBio: false};
@@ -17,8 +18,8 @@ class App extends Component {
             <div className="site-wrapper">
                 <div className="container head-container">
                     <div className="masthead">
-                            <h1 className='header masthead-brand'>LATTEnomic</h1>
-                            <HeadNavButtons />
+                        <BrandName />
+                        <HeadNavButtons />
                     </div>
                 </div>
              

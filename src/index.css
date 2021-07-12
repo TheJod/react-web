@@ -8,6 +8,11 @@
     src: url(./Assets/fonts/Quicksand-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: ShareTechMono;
+    src: url(./Assets/fonts/ShareTechMono-Regular.ttf)
+}
+
 /* Links */
 a,
 a:focus,
@@ -59,8 +64,22 @@ body {
 }
 
 .masthead-brand {
-    font-family: 'PoiretOne', serif;
+    float: left;
+}
+
+.masthead-brand-logo {
+    float: left;
+    position: absolute;
+    vertical-align: middle;
+    margin: 13px;
+}
+
+.masthead-brand-name {
+    text-align: center;
+    position: absolute;
+    font-family: 'ShareTechMono', serif;
     margin: auto;
+    padding-left: 35px;
 }
 
 .masthead-nav {
@@ -120,7 +139,7 @@ body {
         margin-right: 2%;
     }
 
-    .masthead-brand {
+    .masthead-brand-name {
         float: left;
     }
 
